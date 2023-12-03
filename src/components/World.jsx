@@ -8,7 +8,7 @@ import { useMemo } from "react";
 
 export default function World() {
   const boxes = useMemo(() => {
-    const boxes = [...Array(100)].map((_, index) => <Boxx key={index} />);
+    const boxes = [...Array(10)].map((_, index) => <Boxx key={index} />);
     return boxes;
   }, []);
   return (
